@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <title>YouTube Moving Company</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="header">
+    <div class="header-actions">
+      <button id="langToggleBtn" class="text-btn">EN</button>
+      
+      <button id="themeToggleBtn" class="theme-btn" data-i18n-title="title_theme_toggle" title="切換主題">
+        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
+        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+
+      <button id="popoutBtn" class="text-btn" data-i18n="btn_panel">側邊欄</button>
+    </div>
+
+
+    <div class="brand-group" style="position: relative;">
+      <img id="brandLogo" class="brand-logo" src="icon.png" alt="Logo">
+      <div class="logo-tooltip" data-i18n="logo_joke">我沒有任何作用!!!</div>
+      
+      <div class="brand">YouTube Moving Company</div>
+      <div id="accountCard" class="account-status-inline">
+        <span id="statusDot" class="dot dot-warning"></span>
+        <span id="accountInfoText" data-i18n="status_checking">正在檢測 YouTube 登入狀態...</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="0" data-i18n="nav_subs">頻道訂閱</button>
+    <button class="tab-btn" data-tab="1" data-i18n="nav_playlists">播放清單</button>
+    <button class="tab-btn" data-tab="2" data-i18n="nav_clean">帳號清理</button>
+    <button class="tab-btn" data-tab="3" data-i18n="nav_about">關於</button>
+    <div class="active-indicator" id="activeIndicator"></div>
+  </div>
+
+
+  <div class="tab-viewport">
+    <div class="tab-container" id="tabContainer">
+      
+      <div class="tab-pane" id="pane0">
+        <div class="feature-pane">
+          <div class="feature-header">
+            <span class="feature-title" style="display:flex; align-items:center; gap:6px;">
+              <span data-i18n="card_subs_title">備份與還原頻道訂閱</span>
+              <svg id="subsInfoBtn" style="cursor:pointer; color:var(--text-secondary); transition:color 0.2s;" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
+            </span>
+          </div>
+          <div class="clean-options-container" style="margin-top:0; margin-bottom:-5px; width:100%; max-width:100%;">
+         <div class="toggle-wrapper" style="justify-content: center; gap: 8px;">
+           <span style="font-size:11.5px; color:var(--text-secondary); display:flex; align-items:center; gap:4px;">
+             <span data-i18n="chk_human_mode">擬人追蹤</span>
+             <svg id="humanModeInfoBtn" style="cursor:pointer; color:var(--text-secondary); transition:color 0.2s;" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+               <path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/>
+             </svg>
+           </span>
+           <label class="switch"><input type="checkbox" id="chkHumanMode" checked><span class="slider"></span></label>
+         </div>
+       </div>
+          <div class="card-action-stack">
+            <button id="backupSubsBtn" class="btn btn-glass"><span data-i18n="btn_backup_subs">儲存頻道訂閱</span></button>
+            <div class="restore-btn-wrapper">
+              <button id="restoreStoredSubsBtn" class="btn btn-glass" disabled><span data-i18n="btn_restore_subs_empty">還原頻道訂閱 (無快取)</span></button>
+              <button id="clearSubBackupBtn" class="icon-btn-trash hidden" data-i18n-title="title_del_cache" title="刪除快取">
+                <svg viewBox="0 0 24 24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tab-pane" id="pane1">
+        <div class="feature-pane">
+          <div class="feature-header">
+            <span class="feature-title" style="display:flex; align-items:center; gap:6px;">
+              <span data-i18n="card_pl_title">備份與還原播放清單</span>
+              <svg id="plInfoBtn" style="cursor:pointer; color:var(--text-secondary); transition:color 0.2s;" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
+            </span>
+          </div>
+          <div class="card-action-stack">
+            <button id="backupPlaylistsBtn" class="btn btn-glass"><span data-i18n="btn_backup_pl">儲存播放清單</span></button>
+            <div class="restore-btn-wrapper">
+              <button id="restoreStoredPlaylistsBtn" class="btn btn-glass" disabled><span data-i18n="btn_restore_pl_empty">還原播放清單 (無快取)</span></button>
+              <button id="clearPlBackupBtn" class="icon-btn-trash hidden" data-i18n-title="title_del_cache" title="刪除快取">
+                <svg viewBox="0 0 24 24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="pane2">
+        <div class="feature-pane">
+          <div class="feature-header">
+            <span class="feature-title" style="display:flex; align-items:center; gap:6px;">
+              <span data-i18n="card_clean_title">選擇要清理的項目</span>
+              <svg id="cleanInfoBtn" style="cursor:pointer; color:var(--text-secondary); transition:color 0.2s;" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"/></svg>
+            </span>
+          </div>
+          <div class="clean-options-container">
+            <div class="toggle-wrapper">
+              <span style="font-size:12.5px;" data-i18n="chk_clean_subs">移除追蹤所有頻道</span>
+              <label class="switch"><input type="checkbox" id="chkCleanSubs"><span class="slider"></span></label>
+            </div>
+            <div class="toggle-wrapper">
+              <span style="font-size:12.5px;" data-i18n="chk_clean_pls">刪除所有播放清單</span>
+              <label class="switch"><input type="checkbox" id="chkCleanPls"><span class="slider"></span></label>
+            </div>
+          </div>
+          <button id="startCleanBtn" class="btn btn-glass" disabled><span data-i18n="btn_start_clean">開始執行清理任務</span></button>
+        </div>
+      </div>
+
+
+      <div class="tab-pane" id="pane3">
+        <div class="card about-text" id="aboutContent"></div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="progress-section">
+    <div class="stop-btn-container">
+      <button id="stopBtn" class="btn-stop-prominent btn-glass-danger hidden" data-i18n="btn_stop">強制停止任務</button>
+    </div>
+    <div class="progress-header">
+      <span data-i18n="label_progress">處理進度</span>
+      <span id="processedText">0 / 0</span>
+    </div>
+    <div class="progress-bar-bg"><div id="progressBar" class="progress-bar"></div></div>
+    
+    <div class="stats-grid">
+      <div class="stat-chip success">
+        <span data-i18n="label_success">成功：</span>
+        <strong id="successText">0</strong>
+      </div>
+      <div class="stat-chip fail">
+        <span data-i18n="label_fail">失敗：</span>
+        <strong id="failText">0</strong>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="log-wrapper" id="logWrapper">
+    <div class="log-trigger" id="logTrigger">
+      <span class="log-arrow">▶</span>
+      <span data-i18n="label_log">即時執行紀錄</span>
+      <button id="clearLogBtn" style="background:none; border:none; color:var(--text-secondary); cursor:pointer; font-size:11px; margin-left:auto;" data-i18n="btn_clear_log">清空</button>
+    </div>
+    <div class="log-container">
+      <div id="logBox" class="log-box"></div>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <a href="https://github.com/yaotingshiu/YouTube_Moving_Company" target="_blank" class="footer-link">
+      <svg height="12" viewBox="0 0 16 16" width="12" fill="currentColor"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.46-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path></svg>
+      GitHub
+    </a>
+    <a href="https://www.paypal.com/ncp/payment/D7GSCCJEHTSFN" target="_blank" class="footer-link">
+      ☕ <span data-i18n="label_donate">請我喝咖啡</span>
+    </a>
+  </div>
+
+
+ <div id="infoModal" class="modal-overlay">
+   <div class="modal-box">
+     <div class="modal-title" id="infoModalTitle">關於功能</div>
+     <div class="modal-text" id="infoModalText" style="text-align: left; margin-bottom: 16px;"></div>
+     <div class="modal-actions">
+       <button id="infoModalCloseBtn" class="btn btn-razer" data-i18n="btn_understood">了解</button>
+     </div>
+   </div>
+ </div>
+
+
+  <div id="customModal" class="modal-overlay">
+    <div class="modal-box">
+      <div class="modal-title" id="modalTitle" data-i18n="modal_title">高風險操作驗證</div>
+      <div class="modal-text" id="modalText" data-i18n="modal_desc">您即將執行清理作業，請輸入 DELETE 以確認執行：</div>
+      <input type="text" id="modalInput" class="modal-input" placeholder="DELETE">
+      <div class="modal-actions">
+        <button id="modalCancelBtn" class="btn btn-secondary" data-i18n="modal_cancel">取消</button>
+        <button id="modalConfirmBtn" class="btn btn-glass-danger" data-i18n="modal_confirm">確定</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="sidePanelNoticeOverlay" class="side-panel-overlay hidden">
+    <div class="modal-box side-panel-modal">
+      <div class="modal-title" data-i18n="sp_notice_title">側邊欄使用中</div>
+      <div class="modal-text" data-i18n="sp_notice_desc">偵測到側邊欄已在右側開啟，是否關閉側邊欄？</div>
+      <div class="modal-actions vertical">
+        <button id="closeSidePanelBtn" class="btn btn-glass-danger" data-i18n="btn_close_sp">是，關閉側邊欄</button>
+        <button id="keepSidePanelBtn" class="btn btn-secondary" data-i18n="btn_keep_sp">否，繼續使用側邊欄</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="crossTabNoticeOverlay" class="side-panel-overlay hidden">
+    <div class="modal-box side-panel-modal">
+      <div class="modal-title" id="crossTabModalTitle" data-i18n="cross_tab_modal_title">任務執行中</div>
+      <div class="modal-text" id="crossTabModalDesc">【任務】正在其他分頁執行中，是否跳轉至該分頁？</div>
+      <div class="modal-actions vertical">
+        <button id="jumpToTaskTabBtn" class="btn btn-razer" data-i18n="btn_jump_tab">是，跳轉至該分頁</button>
+        <button id="closeCrossTabNoticeBtn" class="btn btn-secondary" data-i18n="btn_close_window">否，關閉視窗</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="toastNotification" class="toast-overlay">
+    <div class="toast-box" data-i18n="toast_running_warn">任務執行中，請勿關閉或重整 YouTube 網頁！</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
