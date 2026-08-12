@@ -34,7 +34,9 @@
   <br><br>
   <img width="182" height="289" alt="s5" src="https://github.com/user-attachments/assets/72d4277f-142b-42b6-984a-3d4a201664fe" />
   <img width="182" height="290" alt="s6" src="https://github.com/user-attachments/assets/2c7a1430-ef6a-414a-9f9d-d9b9accc661a" />
-  <br>
+  <br><br>
+  <img width="420" height="168" alt="S7" src="https://github.com/user-attachments/assets/e105699c-a9c0-4c29-8cfb-0ff93a116574" />
+
 </details>
 
 ---
