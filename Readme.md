@@ -7,7 +7,21 @@
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
 ---
+
+## 核心功能 (Core Features)
+
+* 頻道訂閱備份與還原：一鍵匯出當前帳號的訂閱清單，並自動移植至新帳號。
+* Subscription Backup & Restore: Export channel subscriptions with one click and restore them to a new account.<br><br>
+* 播放清單備份與還原：完整備份自訂歌單與影片，在新帳號中自動重建。
+* Playlist Backup & Restore: Back up custom playlists and videos, recreating them automatically in the target account.<br><br>
+* 帳號資料清理：提供批次取消訂閱與刪除歌單功能，並設有防誤觸機制。
+* Account Data Cleanup: Batch unsubscribe from channels and delete playlists with built-in safety confirmation.<br><br>
+* 操作簡單直覺：介面清晰零門檻，人人都能輕鬆上手。
+* Simple & Intuitive: Clean interface with zero learning curve, easy for anyone to use.
+## 
+
 ---
+
 ### 軟體介面截圖 / Screenshots
 <details>
   <summary>點擊展開介面截圖 / Click to expand screenshots</summary>
@@ -24,7 +38,7 @@
 </details>
 
 ---
----
+
 ### 繁體中文 (Traditional Chinese)
 <details>
  <summary>點擊展開介紹 / Click to expand introduction</summary><br>
@@ -107,7 +121,6 @@ YouTube Moving Company 是一款專為 YouTube 使用者設計的瀏覽器擴充
 
 </details>
 
----
 ---
 
 ### English
