@@ -11,11 +11,20 @@
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 [![Users](https://img.shields.io/chrome-web-store/users/cmgadokilonjjigdjafidjdggacbcmdm?style=flat-square&label=Users)](https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm)
 [![Rating](https://img.shields.io/chrome-web-store/stars/cmgadokilonjjigdjafidjdggacbcmdm?style=flat-square&label=Rating)](https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm)
-
-<p align="center">
-  <a href="https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm" target="_blank">
-    <img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome_128x128.png" width="54" alt="Chrome Logo"><br>
-    <b>點此前往 Chrome Web Store 免費安裝 YouTube Moving Company<br><br>Click here to install YouTube Moving Company from Chrome Web Store</b>
+<br>
+<p align="left">
+  <a href="https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm">
+    <picture>
+      <img src="https://img.shields.io/badge/👉_點此前往_Chrome_商店免費安裝_YouTube_Moving_Company-FF6666?style=for-the-badge&logo=googlechrome&logoColor=white" width="500" alt="Chrome Store">
+    </picture>
+  </a>
+</p>
+<br>
+<p align="left">
+  <a href="https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm">
+    <picture>
+      <img src="https://img.shields.io/badge/👉_Click here to install YouTube Moving Company from Chrome Web Store-FF6666?style=for-the-badge&logo=googlechrome&logoColor=white" width="600" alt="Chrome Store">
+    </picture>
   </a>
 </p>
 
