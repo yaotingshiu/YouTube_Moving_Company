@@ -1,12 +1,23 @@
-# <img width="40" height="40" alt="icon" src="https://github.com/user-attachments/assets/a785551b-de90-44ba-8ca5-d495c1cbee8e" />   YouTube Moving Company ; YouTube 搬家公司
+# <img width="40" height="40" alt="icon" src="https://github.com/user-attachments/assets/a785551b-de90-44ba-8ca5-d495c1cbee8e" />  YouTube Moving Company ; YouTube 搬家公司
+
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Published-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm)
+
 ![Version](https://img.shields.io/badge/Version-1.0.1-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Brave-lightgrey.svg)<br>
+![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Brave-lightgrey.svg)
 ![Manifest](https://img.shields.io/badge/Manifest-V3-orange.svg)
 ![UI Language](https://img.shields.io/badge/UI_Language-繁體中文_%7C_English-9cf.svg)<br>
 ![Language](https://img.shields.io/badge/Language-JavaScript%20%7C%20CSS3%20%7C%20HTML-f7df1e.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-success.svg)<br>
-![Store Status](https://img.shields.io/badge/Chrome_Web_Store-In_Review-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+[![Users](https://img.shields.io/chrome-web-store/users/cmgadokilonjjigdjafidjdggacbcmdm?style=flat-square&label=Users)](https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm)
+[![Rating](https://img.shields.io/chrome-web-store/stars/cmgadokilonjjigdjafidjdggacbcmdm?style=flat-square&label=Rating)](https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm)
+
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm" target="_blank">
+    <img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome_128x128.png" width="54" alt="Chrome Logo"><br>
+    <b>點此前往 Chrome Web Store 免費安裝 YouTube Moving Company<br><br>Click here to install YouTube Moving Company from Chrome Web Store</b>
+  </a>
+</p>
 
 ---
 
@@ -21,7 +32,6 @@
 * Account Data Cleanup: Batch unsubscribe from channels and delete playlists with built-in safety confirmation.<br><br>
 * 操作簡單直覺：介面清晰零門檻，人人都能輕鬆上手。
 * Simple & Intuitive: Clean interface with zero learning curve, easy for anyone to use.
-## 
 
 ---
 
@@ -88,9 +98,15 @@ YouTube Moving Company 是一款專為 YouTube 使用者設計的瀏覽器擴充
 
 ---
 
-## 📥 安裝與開發者測試方法
+## 📥 安裝說明
 
-### 透過開發者模式載入（未打包擴充功能）
+### 方式 A：透過 Chrome 線上應用程式商店安裝（推薦）
+點擊下方連結直達商店頁面免費安裝：
+👉 **[下載 YouTube Moving Company](https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm)**
+
+---
+
+### 方式 B：透過開發者模式載入（原始碼測試）
 
 1.  下載或 Clone 本專案原始碼至本地電腦：
     ```bash
@@ -172,9 +188,15 @@ YouTube Moving Company is a powerful browser extension (based on Manifest V3) sp
 
 ---
 
-## 📥 Installation & Developer Testing
+## 📥 Installation
 
-### Load as Unpacked Extension (Developer Mode)
+### Method A: Install via Chrome Web Store (Recommended)
+Get it directly from the Chrome Web Store:
+👉 **[Download YouTube Moving Company](https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm)**
+
+---
+
+### Method B: Load Unpacked Extension (Developer Testing)
 
 1.  Download or clone the source code to your local machine:
     ```bash
@@ -208,12 +230,10 @@ YouTube Moving Company is a powerful browser extension (based on Manifest V3) sp
 *   **Absolute Privacy**: All API interactions are executed entirely on your local browser. **We NEVER collect, transmit, upload, or sell your personal data, cookies, or tokens to any external servers**.
 *   **Irreversible Actions**: The account cleanup tasks (unsubscribing and deleting playlists) are irreversible. Please ensure your important data is fully backed up before executing.
 
-
 </details>
 
 ---
 
----
 ## ☕ 贊助與專案資訊(Support the Developer & Info)
 
 如果您覺得這款軟體為您節省了大量時間，歡迎請開發者喝杯咖啡！您的支持是我們持續更新與優化工具的最大動力。 <br><br>
@@ -226,6 +246,7 @@ If this tool has saved you time, consider buying the developer a coffee! Your su
 *   **版本(Version)**：v1.0.1
 *   **開發者(Developer)**：許耀庭 (HsuYaoTing)
 *   **聯絡信箱(Email)**：speed132454@gmail.com
+*   **Chrome 商店網址(Chrome Web Store)**：[YouTube Moving Company](https://chromewebstore.google.com/detail/youtube-moving-company/cmgadokilonjjigdjafidjdggacbcmdm)
 *   **GitHub**：[https://github.com/yaotingshiu/YouTube_Moving_Company](https://github.com/yaotingshiu/YouTube_Moving_Company)
 
 ---
