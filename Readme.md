@@ -1,15 +1,18 @@
 # <img width="40" height="40" alt="icon" src="https://github.com/user-attachments/assets/a785551b-de90-44ba-8ca5-d495c1cbee8e" />   YouTube Moving Company ; YouTube 搬家公司
 ![Version](https://img.shields.io/badge/Version-1.0.1-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Brave-lightgrey.svg)
-![Manifest](https://img.shields.io/badge/Manifest-V3-orange.svg)<br>
+![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Brave-lightgrey.svg)<br>
+![Manifest](https://img.shields.io/badge/Manifest-V3-orange.svg)
+![UI Language](https://img.shields.io/badge/UI_Language-繁體中文_%7C_English-9cf.svg)<br>
 ![Language](https://img.shields.io/badge/Language-JavaScript%20%7C%20CSS3%20%7C%20HTML-f7df1e.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)<br>
+![Store Status](https://img.shields.io/badge/Chrome_Web_Store-In_Review-yellow.svg)
 
 ---
 
 ## 核心功能 (Core Features)
-
+* 多國語言支援：完整支援繁體中文與英文介面。
+* Multi-language Support: Fully supports Traditional Chinese and English interfaces.<br><br>
 * 頻道訂閱備份與還原：一鍵匯出當前帳號的訂閱清單，並自動移植至新帳號。
 * Subscription Backup & Restore: Export channel subscriptions with one click and restore them to a new account.<br><br>
 * 播放清單備份與還原：完整備份自訂歌單與影片，在新帳號中自動重建。
