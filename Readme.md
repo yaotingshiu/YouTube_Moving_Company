@@ -1,8 +1,7 @@
-# <img width="40" height="40" alt="icon" src="https://github.com/user-attachments/assets/f798ee82-a37c-44c2-8cbc-106e77481ac9" />YouTube Moving Company ; YouTube 搬家公司
-
+# <img width="40" height="40" alt="icon" src="https://github.com/user-attachments/assets/a785551b-de90-44ba-8ca5-d495c1cbee8e" />   YouTube Moving Company ; YouTube 搬家公司
 ![Version](https://img.shields.io/badge/Version-1.0.1-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Edge%20%7C%20Brave-lightgrey.svg)
-![Manifest](https://img.shields.io/badge/Manifest-V3-orange.svg)
+![Manifest](https://img.shields.io/badge/Manifest-V3-orange.svg)<br>
 ![Language](https://img.shields.io/badge/Language-JavaScript%20%7C%20CSS3%20%7C%20HTML-f7df1e.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
@@ -12,27 +11,16 @@
 ### 軟體介面截圖 / Screenshots
 <details>
   <summary>點擊展開介面截圖 / Click to expand screenshots</summary>
-<br>
-<img width="368" height="496" alt="s1" src="https://github.com/user-attachments/assets/628a24c4-a458-4c10-97b3-a0cf4cfb41dc" />
-
-<br><br>
-<img width="367" height="496" alt="s2" src="https://github.com/user-attachments/assets/4425e8bf-207b-45b2-a89d-61b930ac6777" />
-<br><br>
-<img width="366" height="496" alt="2026-08-12_052248" src="https://github.com/user-attachments/assets/38a9eda7-8a7b-41ae-9ae3-6c2d69d4b7b0" />
-
-<br><br>
-<img width="364" height="579" alt="s5" src="https://github.com/user-attachments/assets/3eb028db-80fa-4336-acdb-91db4c1b308f" />
-
-<br><br>
-<img width="364" height="578" alt="s4" src="https://github.com/user-attachments/assets/c6120f1c-5e9d-4df9-84f4-85fc6f52da8c" />
-
-<br><br>
-<img width="365" height="580" alt="s3" src="https://github.com/user-attachments/assets/54951fa6-c14e-4520-9c43-3075522e4996" />
-
-<br><br>
-
-<br><br>
-  
+  <br>
+  <img width="183" height="248" alt="s1" src="https://github.com/user-attachments/assets/7362997b-da92-4aad-85d4-5af115e19338" />
+  <img width="183" height="248" alt="s2" src="https://github.com/user-attachments/assets/cef6358e-31b8-4c64-9d64-1107e3b90cf2" />
+  <br><br>
+  <img width="183" height="248" alt="s3" src="https://github.com/user-attachments/assets/ca8153fe-e5aa-4ec3-af45-713b7f1e2a95" />
+  <img width="182" height="289" alt="s4" src="https://github.com/user-attachments/assets/45382b2d-b5d1-4ff9-a5e4-23159114d964" />
+  <br><br>
+  <img width="182" height="289" alt="s5" src="https://github.com/user-attachments/assets/72d4277f-142b-42b6-984a-3d4a201664fe" />
+  <img width="182" height="290" alt="s6" src="https://github.com/user-attachments/assets/2c7a1430-ef6a-414a-9f9d-d9b9accc661a" />
+  <br>
 </details>
 
 ---
